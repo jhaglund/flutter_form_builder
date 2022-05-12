@@ -10,7 +10,11 @@ dependencies:
   flutter:
     sdk: flutter
   flutter_form_builder: ^7.0.0
-  flutter_chips_input: ^1.10.0
+  #flutter_chips_input: ^1.10.0
+  flutter_chips_input:
+    git:
+      url: https://github.com/jhaglund/flutter_chips_input
+      ref: local
   flutter_colorpicker: ^1.0.3
   dropdown_search: ^2.0.1
   signature: ^5.0.0
